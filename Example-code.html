@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Web Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+
+<!---link to .css --->
+  <link href="C:\Users\Liz\projects\DevProject\resources\CSS\index.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Example code</h1>
+  <p>Sections of code for easy retrieval</p>
+  <p>use br element<br> to insert a published break<br>use div to insert non published break</p>
+  <br>
+
+<!---Lists--->  
+  <label for='ordered'>Ordered list</label>
+  <ol id="ordered">
+    <li>List 1</li>
+    <li>Item order</li>
+    <li>Counts</li>
+  </ol>
+  <br>
+  <label for='unordered'>Unordered list</label>
+  <ul id="unordered">
+    <li>list 2</li>
+    <li>order doesn't</li>
+    <li>count</li>
+  </ul>
+ 
+  <!---this is a small table--->
+  <table>
+    <thead>
+      <tr>
+        <th>Column Title1</th>
+        <th>Column 2 title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>column 1 data</td>
+        <td>column 2 data</td>
+      </tr> 
+      <br> 
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>this is the end of my table</th>
+      </tr>
+    </tfoot>
+  </table>
+  <br> 
+
+ <!---These are for forms--->
+ <ul id="formelements">
+  <label for="formelements">Non-type attribured inputs<label>
+  <li>Dropdown</li>
+    <label for="section"> Dropdown</label>
+    <select id="section" name="section">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>  
+    <br>
+    <br> 
+  <li>Text box</li>
+    <textarea rows="2" cols="40" name='comment' placeholder="Comment"></textarea>
+    <br>
+    <br>
+  <li>Datalist</li>
+    <input id="datalist" name="datalist" list="data"/>
+    <datalist id="data">
+      <option value="pengiuns"/>
+      <option value="polar bears"/>
+    </datalist>
+ </ul>
+
+<!---list if "types"--->
+<label for="types">List of Type attributes with examples</label>
+<ul id="types">
+  <li>text</li>
+    <!---Input and label (put them in the order you want them to appear)--->
+    <input id="inputbox" name="inputbox" type="text" placeholder="placeholder" required/>
+    <label for="inputbox">Input Box text</label>
+    <br>
+    <br>
+  <li>Number</li>
+    <input id="inputbox2" name="inputbox2" type="text" placeholder="placeholder" required/>
+    <label for="inputbox2">Input Box number</label>
+    <br>
+    <br>
+  <li>Range</li>
+    <input type="range" name="range" if="range" min="1" max="10" step="1"/>
+    <label for="range">1 to 10</label>
+    <br>
+    <br>
+  <li>password</li>
+    <input type="password" name="password" id="password" min="1" max="10"/>
+    <br>
+    <br>
+  <li>checkbox</li>
+    <input id="checkbox" name="checkbox" type="checkbox"  required/>
+    <label for="checkbox">Check Me</label>
+    <br>
+    <br>
+  
+</ul>
+<ul id="validators">
+  <li></li>
+</ul>
+ <!---images, video, audio, and embed--->
+    <img src="https://a-z-animals.com/media/little-penguin-1.jpg" alt="picture of a small blue penguin on the beach"/>
+  <br>
+    <a href="https://www.youtube.com/watch?v=aMmcFRWRJ8E" target="_blank">
+    <video src="https://www.youtube.com/watch?v=aMmcFRWRJ8E" controls>Video not supported</video></a>
+  <br>
+  <script src="script.js"></script>
+</body>
+</html>
